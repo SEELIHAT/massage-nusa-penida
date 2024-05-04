@@ -31,8 +31,8 @@
               box-shadow:inset 5px 5px 5px 1px black,
               inset -5px -5px 5px 1px black ; margin-top:-5px; 
               border-radius:15px 25px 15px 25px;overflow:hidden;}
-             .addres{color:white;display:grid;margin-top:10px;margin-left:10px;padding:15px;}
-             
+             .addres{color:blue;display:grid;margin-top:10px;margin-left:10px;padding:15px;}
+             footer a{color:red;}
              
             
             
@@ -142,11 +142,11 @@
       .ucha{position:absolute;text-align:center;top:10px;color:white;padding:10px; font-weight:bold;}
       .youtub{width:280px;height:380px;border :5px solid gold;}
 
-      .a{color:white; padding: 5px; }
+      .a{color:blue; padding: 5px; }
 .overend{display:flex;gap:20px;width:80%; position:relative;border:5px solid goldenrod;
     border-radius:5px 55px 5px 55px;overflow:hidden;
      height:auto;height:auto; position:relative;
-     margin-bottom: 20px;color:yellow;}.header p{padding:10px;}
+     margin-bottom: 20px;color:black;}.header p{padding:10px;}
       .img{width:30px;gap:15px; animation-name:transform; animation-duration:8s;}
       @keyframes rotate{10%{transform:rotate(3deg);}20%{transform:rotate(-3deg);}30%{transform:rotate(3deg);}
       40%{transform:rotate(-3deg);}50%{transform:rotate(3deg);}
@@ -188,13 +188,13 @@
         .red {
           color: red;
         }
-.overends{margin:auto;color:white;font-size:15px;display:flex;flex-wrap: wrap;overflow: hidden;gap:15px;}
+.overends{margin:auto;color:yellow;font-size:15px;display:flex;flex-wrap: wrap;overflow: hidden;gap:15px;}
 @media only screen and (max-width: 700px) {
  
                       .overends { width:50px;
                           display: none; /* Hide the 'bod' class on smaller screens (e.g., phones) */
                       }}
-.overends a{color:white;}
+.overends a{color:blue;}
         .bask{animation-name:rotates;animation-duration:8s; width:50px; height:auto;}
  .beforeoverends{width:150px;height:150px; border:1px solid yellow;border-radius:50%;
   justify-content: center; text-align:center; align-items:center; margin-top:20px;}
