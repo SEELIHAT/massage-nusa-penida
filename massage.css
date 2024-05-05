@@ -195,6 +195,7 @@
                           display: none; /* Hide the 'bod' class on smaller screens (e.g., phones) */
                       }}
 .overends a{color:blue;}
+
         .bask{animation-name:rotates;animation-duration:8s; width:50px; height:auto;}
  .beforeoverends{width:150px;height:150px; border:1px solid yellow;border-radius:50%;
   justify-content: center; text-align:center; align-items:center; margin-top:20px;}
