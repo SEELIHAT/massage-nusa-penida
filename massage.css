@@ -172,7 +172,7 @@
    position:relative;z-index:1500; }
    #button{ height:20px;}
    .imgclassone{ margin-bottom: 1px;padding-bottom: 40px;}
-   .clubord{color:red;font-size:25px;padding-left:10px; padding-right:10px;
+   .clubord{color:rgb(120, 31, 31);font-size:25px;padding-left:10px; padding-right:10px;
     text-shadow: 2px 2px 3px yellow,
     -2px -2px 3px yellow ; text-indent:20px;}
     .clubor{color:yellow;font-size:25px;padding-left:10px; padding-right:10px;
