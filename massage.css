@@ -310,7 +310,8 @@
                         text-shadow:2px 2px 2px white,
                         -1px -2px 2px white;
                       }
-                      .price{width:100%;border:8px solid red;}         
+                      .price{width:100%;border:8px solid red;} 
+                      .img{width:20; height:30px;}        
                       
 
 
