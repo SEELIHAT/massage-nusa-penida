@@ -312,7 +312,9 @@
                         -1px -2px 2px white;
                       }
                       .price{width:100%;border:8px solid red;} 
-                      .img{width:20; height:30px;}        
+                      .img{width:20; height:30px;} 
+                      .clubord a {text-decoration: none;background:white;} 
+                      .bookmassage{border:5px solid rgb(171, 21, 21);font-size:20px;color:yellow;text-decoration: none;}    
                       
 
 
