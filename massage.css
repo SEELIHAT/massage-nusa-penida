@@ -321,7 +321,7 @@
                      .chdown{display:flex;padding:0; flex-wrap:wrap;margin:auto;justify-content:center; width:70%;}
                      .downch{display:flex;flex-wrap:nowrap; overflow: hidden;border:5px solid goldenrod;text-align: center;}
                      .downch img{width:20%; height:90px;}
-                     
+                     .clubord a{border:5px solid red;}
                       .price{width:100%;border:8px solid red;} 
                       .img{width:20px; height:30px;} 
                       .clubord a {text-decoration: none;background:white;} 
