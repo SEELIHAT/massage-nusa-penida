@@ -323,13 +323,17 @@
                      .downch img{width:20%; height:90px;}
                      .clubord a{border:5px solid red;}
                       .price{width:100%;border:8px solid red;} 
-                      .img{width:20px; height:30px;} 
+                      .img{width:20px; height:30px;}
+                      .rent{text-decoration: none;background:white;border:2px solid rgb(82, 62, 13)} 
                       .clubord a {text-decoration: none;background:white;} 
                       .bookmassage{border:5px solid rgb(171, 21, 21);font-size:20px;color:yellow;text-decoration: none;}    
                       .crystal{display:flex;flex-wrap: wrap;}
                       .crystalimg{width:280px; height:auto;justify-content: center; align-items: center;margin:auto; border-radius: 10px 20px 10px 20px;border:5px solid goldenrod;}
                       @media only screen and (max-width: 1100px){.crystalimg2{ border-radius: 10px 20px 10px 20px;border:5px solid goldenrod;display:none;}}
-
+                      .rentclub{color:rgb(120, 31, 31);font-size:25px;padding-left:10px; padding-right:10px;
+                      text-shadow: 2px 2px 3px yellow,
+                      -2px -2px 3px yellow ; text-indent:20px;}
+                      .htree{font-size:25px; color:rgb(49, 38, 11);text-align: center;font-style: italic;text-decoration: underline;}
 
 
 
