@@ -122,14 +122,12 @@
   .slides.animate {
       animation: slide 30s linear infinite;
   }
-  .book{font-size:18px;font-weight: bold; color:black; background-color: white; border:3px solid red;}
+  a span.book{font-size:22px;font-weight: bold; color:red; background-color: white; border:3px solid rgb(118, 104, 22);}
   .h1{text-shadow:3px 3px 5px white,
     -3px -3px 5px white; font-weight:bold; margin:auto;
     animation-name:color;animation-duration:8s;margin-top:20px;margin:auto;text-align:center; 
     color:rgb(141, 106, 19);}   
-  body{ background-image:url('https://images.unsplash.com/photo-1620733723572-11c53f73a416?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
-     ;background-repeat: no-repeat;width:100%;
-  background-size: cover;} 
+   
   .but{border:3px solid red;margin-left:15%; padding:5px;background-color: white;
     padding-left:15px;padding-right:15px;padding-top:15px; padding-bottom: 15px; color:red;
      border-radius:50%;text-align:center; }
@@ -209,11 +207,12 @@
         display:grid; z-index:1000; opacity:0;}
         .opa{font-size:20px;color:red;padding:5px;border:5px solid red; font-weight: bold;  animation-name: color;
              animation-duration:8s; background-color: white;}
-             h2{ background-color:none;color:black;text-shadow:3px 3px 3px white; font-size:30px; font-style:italic;}
+             h2{ background-color:none;color:black;text-shadow:3px 3px 3px white; font-size:20px; font-style:italic;}
              .dropdown-content a{padding:3px; color:red; border:3px solid gray; background-color:yellow; }
              .header img{border-radius:25px 45px 25px 45px; border:5px double goldenrod; box-shadow:inset 8px 8px 3px 0 goldenrod,
               inset -8px -8px 3px 0 goldenrod;} 
               .pictures{text-align:center;margin:auto;}
+              .traveling{border:5px solid rgb(146, 110, 20);color:red;}
              .dropdown {
                      position: relative;
                      display: inline-block;
@@ -240,7 +239,7 @@
                       text-shadow: 2px 2px 3px black,
                       -2px -2px 3px black;}
                       h3{color :white; font-size:10px; font-style:italic;}
-                      .aindex{ background-color:none;color:black;text-shadow:3px 3px 3px white; font-size:30px; font-style:italic;}
+                      .aindex{ background-color:none;color:black;text-shadow:3px 3px 3px white; font-size:20px; font-style:italic;}
                               
                     .bindex{ 
                       text-shadow:1px 1px 3px white,
@@ -313,7 +312,7 @@
                       #custa td span{color:red; font-style: italic;font-weight: bold;
                         text-shadow:1px 1px 3px white,
                      -1px -1px 3px white;} 
-                      
+                      body.inex{background-color:rgb(182, 180, 180);}
                       .chp{text-align: center;width:60%;color:red;font-size:25px;
                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;font-weight: bold;align-items:center;margin:auto;
                         border:5px solid black;
@@ -324,7 +323,8 @@
                      .chdown{display:flex;padding:0; flex-wrap:wrap;margin:auto;justify-content:center; width:70%;}
                      .downch{display:flex;flex-wrap:nowrap; overflow: hidden;border:5px solid goldenrod;text-align: center;}
                      .downch img{width:20%; height:90px;}
-                     .clubord a{border:5px solid red;}
+                     .clubord a{border:5px solid goldenrod;font-size:20px;color:rgb(173, 31, 31);
+                    text-shadow:2px 2px 1px 0 black;}
                       .price{width:100%;border:8px solid red;} 
                       .img{width:20px; height:30px;}
                       .rent{text-decoration: none;background:white;border:4px solid black;color:red;} 
@@ -337,7 +337,7 @@
                       text-shadow: 2px 2px 3px white,
                       -2px -2px 3px white ; text-indent:20px;font-weight: bold;font-style: italic;}
                       .htree{font-size:25px; color:rgb(49, 38, 11);text-align: center;font-style: italic;text-decoration: underline;}
-
+                      .clubord span{color:rgb(170, 130, 30);text-decoration: underline;}
 
 
 
