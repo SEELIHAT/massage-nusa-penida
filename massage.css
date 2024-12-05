@@ -339,5 +339,95 @@
                       .htree{font-size:25px; color:rgb(49, 38, 11);text-align: center;font-style: italic;text-decoration: underline;}
                       .clubord span{color:rgb(170, 130, 30);text-decoration: underline;}
 
+.mapfirst{margin-top:30px;margin-bottom: 30px;position:relative;height:300px;}
+.mapsecond{width: 220px;height:auto;margin:auto;position:relative;}
+.imgmap{width:220px;height:auto;}
+.brokenbeach{display:flex;flex-wrap: nowrap;overflow: hidden;left:1%;top: 42%;position:absolute;}
+.brokenbeach p{font-size:8px;color:blue;}
+.brokenbeach img{width:10px;height:10px;}
+.crystal{display:flex;flex-wrap: nowrap;overflow: hidden;left:2%;top: 32%;position:absolute;}
+.crystal p{font-size:8px;color:blue;}
+.crystal img{width:10px;height:10px;}
+.daimontbeach{display:flex;flex-wrap: nowrap;overflow: hidden;right:2%;top: 48%;position:absolute;}
+.daimontbeach p{font-size:8px;color:blue;}
+.daimontbeach img{ width:10px;height:10px;}
+.delete {
+  display: none;
+}
 
+@media screen and (min-width: 1100px) {
+  .delete {
+      display: block;overflow:hidden;
+  }
+}
+
+
+.map-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.side-image {
+  width: 350px;
+  height: 400px;
+  margin: 30px 0;
+}
+
+.map-container {
+  margin: 30px 0;
+  position: relative;
+  height: 400px;
+}
+
+.map-frame {
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  border: 5px solid rgb(121, 96, 31);
+}
+
+.map-image {
+  width: 350px;
+  height: 400px;
+}
+
+.map-marker {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.map-marker p {
+  font-size: 10px;
+  color: blue;
+  margin: 0 5px;
+}
+
+.map-marker img {
+  width: 15px;
+  height: 15px;
+}
+
+.map-marker .highlight {
+  font-weight: bold;
+  color: white;
+}
+
+.delete {
+  display: none;
+}
+
+@media screen and (min-width: 1100px) {
+  .delete {overflow:hidden;
+      display: block;
+  }
+}
+.beforemap{text-align:center;font-size:25px;color:black;
+text-shadow: 2px 2px 5px white,
+-2px -2px 5px white;
+font-weight: bold; font-style: italic;text-decoration: underline;}
 
