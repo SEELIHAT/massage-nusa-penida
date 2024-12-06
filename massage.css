@@ -322,7 +322,7 @@
                      .ch{display:grid;gap:20px;margin:auto;overflow: hidden;}
                      .chdown{display:flex;padding:0; flex-wrap:wrap;margin:auto;justify-content:center; width:70%;}
                      .downch{display:flex;flex-wrap:nowrap; overflow: hidden;border:5px solid goldenrod;text-align: center;}
-                     .downch img{width:20%; height:90px;}
+                     .downch img{width:20%; height:150px;}
                      .clubord a{border:5px solid goldenrod;font-size:20px;color:rgb(173, 31, 31);
                     text-shadow:2px 2px 1px 0 black;}
                       .price{width:100%;border:8px solid red;} 
