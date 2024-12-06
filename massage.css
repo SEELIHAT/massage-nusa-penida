@@ -345,9 +345,9 @@
 .brokenbeach{display:flex;flex-wrap: nowrap;overflow: hidden;left:1%;top: 42%;position:absolute;}
 .brokenbeach p{font-size:8px;color:blue;}
 .brokenbeach img{width:10px;height:10px;}
-.crystal{display:flex;flex-wrap: nowrap;overflow: hidden;left:2%;top: 32%;position:absolute;}
-.crystal p{font-size:8px;color:blue;}
-.crystal img{width:10px;height:10px;}
+.stal{display:flex;flex-wrap: nowrap;overflow: hidden;left:2%;top: 32%;position:absolute;}
+.stal p{font-size:8px;color:blue;}
+.stal img{width:10px;height:10px;}
 .daimontbeach{display:flex;flex-wrap: nowrap;overflow: hidden;right:2%;top: 48%;position:absolute;}
 .daimontbeach p{font-size:8px;color:blue;}
 .daimontbeach img{ width:10px;height:10px;}
