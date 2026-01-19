@@ -323,6 +323,7 @@
                      .chdown{display:flex;padding:0; flex-wrap:wrap;margin:auto;justify-content:center; width:70%;}
                      .downch{display:flex;flex-wrap:nowrap; overflow: hidden;border:5px solid goldenrod;text-align: center;}
                      .downch img{width:20%; height:150px;}
+                     .downch a{background-color: white;}
                      .clubord a{border:5px solid goldenrod;font-size:20px;color:rgb(173, 31, 31);
                     text-shadow:2px 2px 1px 0 black;}
                       .price{width:100%;border:8px solid red;} 
@@ -426,8 +427,18 @@
       display: block;
   }
 }
-.beforemap{text-align:center;font-size:25px;color:black;
+@keyframes beforemap{0%{color:red;}20%{color:yellow;} 30%{color:brown}40%{color:red;}50%{color:yellow;} 60%{color:brown}70%{color:red;}80%{color:yellow;} 90%{color:brown}}
+.beforemap{animation-name:beforemap;text-align:center;font-size:25px;color:black;animation-duration: 3s;
 text-shadow: 2px 2px 5px white,
 -2px -2px 5px white;
 font-weight: bold; font-style: italic;text-decoration: underline;}
-
+.map-cont-pic{position: relative; width: 35px;height: 40px;  }
+@keyframes warm {
+  10% { bottom: 10%; right: 45%; opacity: 1; }
+  50% { top: 17%; right: 34%; opacity: 1; }
+  60% { top: 18%; right: 34%; opacity: 1; }
+  70% { top: 15%; right: 34%; opacity: 1; }
+  80% { top: 18%; right: 34%; opacity: 1; }
+  100% { bottom: 30%; right: 40%; opacity: 0; }
+}
+.warm{animation-name: warm;animation-duration: 5s;top: 1px;right:1px;position:absolute;width:22%; height:20%;opacity: 0;}
