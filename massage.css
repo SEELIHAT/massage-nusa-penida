@@ -173,7 +173,7 @@
    .clubord{color:black;font-size:25px;padding-left:10px; padding-right:10px;font-style: italic;
     font-weight: bold;
     text-shadow: 2px 2px 3px white,
-    -2px -2px 3px white ; text-indent:20px;}
+    -2px -2px 3px white ; text-indent:20px;text-align:center;}
     .clubor{color:yellow;font-size:25px;padding-left:10px; padding-right:10px;
       text-shadow: 1px 1px 2px white,
       -1px -1px 2px white ; text-indent:20px;}
@@ -441,4 +441,5 @@ font-weight: bold; font-style: italic;text-decoration: underline;}
   80% { top: 18%; right: 34%; opacity: 1; }
   100% { bottom: 30%; right: 40%; opacity: 0; }
 }
+.pricefrom{color:rgb(63, 47, 6);text-shadow: 2px 2px 1px goldenrod;}
 .warm{animation-name: warm;animation-duration: 5s;top: 1px;right:1px;position:absolute;width:22%; height:20%;opacity: 0;}
