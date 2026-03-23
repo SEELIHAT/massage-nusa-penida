@@ -449,3 +449,4 @@ font-weight: bold; font-style: italic;text-decoration: underline;}
 .tablems td{border:3px double black; background-color: aqua; color:rgb(30, 30, 117); text-align: center; padding:3px;font-size: 22px;;}
 .tablems{width:100%;border: 3px solid black;
   border-collapse: collapse;}
+  .mato{opacity:0;}
