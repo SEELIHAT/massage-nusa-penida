@@ -450,3 +450,7 @@ font-weight: bold; font-style: italic;text-decoration: underline;}
 .tablems{width:100%;border: 3px solid black;
   border-collapse: collapse;}
   .mato{opacity:0;}
+  .image{
+    box-shadow:
+    inset 5px 3px 0 grey,
+    inset -5px -3px 0 grey;}
