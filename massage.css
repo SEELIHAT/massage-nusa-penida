@@ -454,7 +454,7 @@ font-weight: bold; font-style: italic;text-decoration: underline;}
     box-shadow:
     inset 5px 3px 0 grey,
     inset -5px -3px 0 grey;}
-    .notvalue{opacity: 0;position:relative;font-size:10px;text-align: center;}
+    .notvalue{position:absolute;text-align: center;}
    .gallery {gap:30px;
   position: relative;
   width: 100%;
@@ -538,3 +538,4 @@ font-weight: bold; font-style: italic;text-decoration: underline;}
     transform: translateX(50%);
   }
 }
+.mina{font-size:5px;opacity: 0;}
