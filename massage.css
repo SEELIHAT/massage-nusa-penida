@@ -1573,4 +1573,50 @@ body.warung {
   border-radius:15px; background-color: white;text-align:center;margin-left:48%;
   font-size:15px;color:black;}
   @keyframes fufa{0%{opacity:0;} 20%{opacity: 0.2;} 40%{opacity:0.4;} 60%{opacity:0.6;}80%{opacity:0.8;}100%{opacity:1;}}
-  
+ 
+.ttoto1 {
+  top: 1px;
+   left: 50%;  
+   transform: translateX( -50%);
+  z-index:10;
+}
+
+.ttoto2 {z-index:5;
+ top: 1px;
+   left: 50%;  
+   transform: translateX( -50%); 
+  animation: toTheCenter 1s 2s forwards;
+}
+
+
+.ttoto3 {z-index:1;
+ top: 1px;
+   left: 50%;  
+   transform: translateX(-50%); 
+  animation: toTheButtom 2s 3s forwards;
+}
+
+@keyframes toTheCenter {
+  from {
+    top:1px;
+
+  }
+
+  to {
+    margin:auto;
+    transform: translateY(240px) translateX(-50%);
+  }
+}
+
+@keyframes toTheButtom {
+  from {top:1px;
+    
+  }
+
+  to { 
+transform: translateY(480px)translateX(-50%);
+   
+  }
+}
+
+ 
