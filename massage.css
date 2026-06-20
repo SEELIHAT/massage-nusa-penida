@@ -1625,4 +1625,44 @@ transform: translateY(480px)translateX(-50%);
   height: 110vh;
   overflow: hidden;
 }
+.ballery{display:grid;
+  gap: 30px;
+  position: relative;
+  width: 100%;
+  height: 140vh;
+  overflow: hidden;
+  align-self: center;
+  justify-content: space-around; 
+}
+  .swim{
+    align-self: center;
+    justify-content: center;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    width: fit-content;
+    text-align:center;
+    font-size: 15px;
+    background-color: white;
+    height:28px;
+
+}
+.swimer{
+    align-self: center;
+    justify-content: center;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    width: fit-content;
+    text-align:center;
+    font-size: 15px;
+    background-color: white;
+    height:28px;
+
+}
+.himera{margin-top:-350px;}
+.huimera{margin-top:10px;}
+.imera{margin-top:350px;}
  
