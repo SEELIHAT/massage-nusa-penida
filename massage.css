@@ -1604,7 +1604,7 @@ body.warung {
 
   to {
     margin:auto;
-    transform: translateY(230px) translateX(-50%);
+    transform: translateY(220px) translateX(-50%);
   }
 }
 
@@ -1618,5 +1618,11 @@ transform: translateY(480px)translateX(-50%);
    
   }
 }
-
+.allery {
+  gap: 30px;
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  overflow: hidden;
+}
  
